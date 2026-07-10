@@ -34,6 +34,9 @@ function buildFooter(config) {
   const social = (config.social || [])
     .map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${s.label}</a></li>`)
     .join("");
+  const organisers = (config.organiserNames || [])
+    .map((name) => `<li>${name}</li>`)
+    .join("");
 
   return `
     <div class="wrap">
@@ -44,11 +47,8 @@ function buildFooter(config) {
           <p style="max-width:42ch;color:#8FA189;font-family:var(--font-mono);font-size:.8rem;">${config.organisers || ""}</p>
         </div>
         <div>
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:${config.contactEmail}">${config.contactEmail}</a></li>
-            <li>${config.venueShort}</li>
-          </ul>
+          <h4>Organisers</h4>
+          <ul>${organisers || "<li>—</li>"}</ul>
         </div>
         <div>
           <h4>Elsewhere</h4>
