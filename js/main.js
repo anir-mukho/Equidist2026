@@ -31,28 +31,24 @@ function buildHeader(config, activeKey) {
 }
 
 function buildFooter(config) {
-  const social = (config.social || [])
-    .map((s) => `<li><a href="${s.url}" target="_blank" rel="noopener">${s.label}</a></li>`)
-    .join("");
   const organisers = (config.organiserNames || [])
-    .map((name) => `<li>${name}</li>`)
+    .map((name) => `<li style="white-space:nowrap;">${name}</li>`)
     .join("");
 
   return `
     <div class="wrap">
-      <div class="footer-grid">
+      <div class="footer-grid" style="grid-template-columns: 2fr 1fr;">
         <div>
           <h4>${config.fullName}</h4>
-          <p style="max-width:42ch;color:#C9D6C7;">${config.shortDescription}</p>
+          <div class="footer-logos">
+            <img src="assets/img/imsclogo_trilingual.png" alt="The Institute of Mathematical Sciences (IMSc)">
+            <img src="assets/img/cmi-header.png" alt="Chennai Mathematical Institute (CMI)">
+          </div>
           <p style="max-width:42ch;color:#8FA189;font-family:var(--font-mono);font-size:.8rem;">${config.organisers || ""}</p>
         </div>
         <div>
           <h4>Organisers</h4>
           <ul>${organisers || "<li>—</li>"}</ul>
-        </div>
-        <div>
-          <h4>Elsewhere</h4>
-          <ul>${social || "<li>—</li>"}</ul>
         </div>
       </div>
       <div class="footer-bottom">
