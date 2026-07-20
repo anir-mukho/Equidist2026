@@ -3,13 +3,13 @@
     "date": "2026-09-07",
     "label": "Mon 7 Sep",
     "sessions": [
-      { "time": "09:30–10:30", "title": "Lecture", "speaker": "R. Balasubramanian" },
+      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Parthanil Roy" },
       { "time": "10:30–10:50", "title": "Coffee break" },
       { "time": "10:50–11:50", "title": "Lecture", "speaker": "Anish Ghosh" },
       { "time": "11:50–12:10", "title": "Coffee break" },
-      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Parthanil Roy" },
+      { "time": "12:10–13:10", "title": "Lecture", "speaker": "R. Balasubramanian" },
       { "time": "13:10–15:00", "title": "Lunch break" },
-      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Karthick Babu" },
+      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Jyothsnaa Sivaraman" },
       { "time": "16:00–16:20", "title": "Coffee break" },
       { "time": "16:20–17:20", "title": "Lecture", "speaker": "Neelam Saikia" }
     ]
@@ -18,13 +18,13 @@
     "date": "2026-09-08",
     "label": "Tue 8 Sep",
     "sessions": [
-      { "time": "09:30–10:30", "title": "Lecture", "speaker": "R. Balasubramanian" },
+      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Parthanil Roy" },
       { "time": "10:30–10:50", "title": "Coffee break" },
       { "time": "10:50–11:50", "title": "Lecture", "speaker": "Anish Ghosh" },
       { "time": "11:50–12:10", "title": "Coffee break" },
-      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Parthanil Roy" },
+      { "time": "12:10–13:10", "title": "Lecture", "speaker": "R. Balasubramanian" },
       { "time": "13:10–15:00", "title": "Lunch break" },
-      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Shreyasi Datta" },
+      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Kaneenika Sinha" },
       { "time": "16:00–16:20", "title": "Coffee break" },
       { "time": "16:20–17:20", "title": "Lecture", "speaker": "Kasi Viswanadham" }
     ]
@@ -33,27 +33,27 @@
     "date": "2026-09-09",
     "label": "Wed 9 Sep",
     "sessions": [
-      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Subhajit Jana" },
+      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Akshaa Vatwani" },
       { "time": "10:30–10:50", "title": "Coffee break" },
       { "time": "10:50–11:50", "title": "Lecture", "speaker": "Anish Ghosh" },
       { "time": "11:50–12:10", "title": "Coffee break" },
       { "time": "12:10–13:10", "title": "Lecture", "speaker": "Arijit Ganguly" },
-      { "time": "13:10–15:00", "title": "Lunch break" },
-      { "time": "15:00–16:00", "title": "Lecture (online)", "speaker": "Soumendu Sundar Mukherjee" },
-      { "time": "16:00–16:20", "title": "Coffee break" },
-      { "time": "16:20–17:20", "title": "Afternoon off" }
+      { "time": "13:10–15:00", "title": "Lunch break" }
     ]
   },
   {
     "date": "2026-09-10",
     "label": "Thu 10 Sep",
     "sessions": [
-      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Kaneenika Sinha" },
+      { "time": "09:30–10:30", "title": "Lecture", "speaker": "Shreyasi Datta" },
       { "time": "10:30–10:50", "title": "Coffee break" },
       { "time": "10:50–11:50", "title": "Lecture", "speaker": "Sundara Narasimhan" },
       { "time": "11:50–12:10", "title": "Coffee break" },
-      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Prasuna Bandi" },
-      { "time": "13:10–15:00", "title": "Lunch break" }
+      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Debanjan Nandi" },
+      { "time": "13:10–15:00", "title": "Lunch break" },
+      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Punya Plaban Satpathy" },
+      { "time": "16:00–16:20", "title": "Coffee break" },
+      { "time": "16:20–17:20", "title": "Lecture", "speaker": "Subhajit Jana" }
     ]
   },
   {
@@ -62,11 +62,11 @@
     "sessions": [
       { "time": "09:30–10:30", "title": "Lecture", "speaker": "Anup Dixit" },
       { "time": "10:30–10:50", "title": "Coffee break" },
-      { "time": "10:50–11:50", "title": "Lecture", "speaker": "Jyothsnaa Sivaraman" },
+      { "time": "10:50–11:50", "title": "Lecture", "speaker": "Karthick Babu" },
       { "time": "11:50–12:10", "title": "Coffee break" },
-      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Debanjan Nandi" },
+      { "time": "12:10–13:10", "title": "Lecture", "speaker": "Prasuna Bandi" },
       { "time": "13:10–15:00", "title": "Lunch break" },
-      { "time": "15:00–16:00", "title": "Lecture", "speaker": "Sundara Narasimhan" },
+      { "time": "15:00–16:00", "title": "Lecture (online)", "speaker": "Soumendu Sundar Mukherjee" },
       { "time": "16:00–16:20", "title": "Coffee break" },
       { "time": "16:20–17:20", "title": "Lecture", "speaker": "Stephan Baier" }
     ]
